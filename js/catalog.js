@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             brand: 'apple',
             price: 99990,
             oldPrice: 109990,
-            image: '../images/14pro.jpg',
+            image: 'https://m.media-amazon.com/images/I/51CJE8vrvIL.jpg',
             category: 'phones',
             isNew: true
         },
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Galaxy S23 Ultra',
             brand: 'samsung',
             price: 89990,
-            image: '../images/s23ult.jpg',
+            image: 'https://m.media-amazon.com/images/I/71Sa3dqTqzL.jpg',
             category: 'phones'
         },
         {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Xiaomi 13 Pro',
             brand: 'xiaomi',
             price: 79990,
-            image: '../images/xi13pro.jpg',
+            image: 'https://i.ebayimg.com/images/g/o54AAOSw8SljlqKk/s-l1200.png',
             category: 'phones',
             isNew: true
         },
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'MacBook Air M2',
             brand: 'apple',
             price: 119990,
-            image: '../images/airm2.webp',
+            image: 'https://i5.walmartimages.com/seo/2022-Apple-MacBook-Air-with-M2-chip-13-6-inch-8GB-RAM-256GB-SSD-Starlight_198166aa-141d-40ee-ada6-0def7def1ff8.51c464292221fe05aef0776831faf085.jpeg',
             category: 'laptops'
         },
         {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
             brand: 'apple',
             price: 24990,
             oldPrice: 29990,
-            image: '../images/airpods2pro.jpg',
+            image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-2-202409-gallery-1?wid=2824&hei=2400&fmt=jpeg&qlt=90&.v=V3lwSGNUa3E5M1VnNVZBT1RDR3Y2NS9rS3dwK1hySWg2QW9tQ1lqaSsxQXFlellpcE56OWNsOHBzVkJLWjdrYWJGcXNRQnFCV0w3WVRjTExvdm1ic1EvTVdVZ0JiQWtXQjFVOE5MY25KUnVIaWV5SG1KWWRSb1RMSkNqUDJYZHY',
             category: 'headphones',
             isNew: true
         },
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Galaxy Buds 2 Pro',
             brand: 'samsung',
             price: 14990,
-            image: '../images/buds2pro.webp',
+            image: 'https://i5.walmartimages.com/seo/Samsung-Galaxy-Buds2-Pro-Bluetooth-Earbuds-True-Wireless-with-Charging-Case-Bora-Purple_0fe507cd-fd5b-423d-964b-11d1f330ff96.9933c02f0ef9ae7d4b17c07038f5ece0.jpeg',
             category: 'headphones'
         },
         {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Watch Series 8',
             brand: 'apple',
             price: 34990,
-            image: '../images/watch8.avif',
+            image: 'https://m.media-amazon.com/images/I/71ulah9iIwL._AC_UF894,1000_QL80_.jpg',
             category: 'watches'
         },
         {
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Galaxy Watch 5 Pro',
             brand: 'samsung',
             price: 29990,
-            image: '../images/watch5pro.webp',
+            image: 'https://m.media-amazon.com/images/I/613RLBA2goL.jpg',
             category: 'watches'
         },
         {
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Dyson Supersonic',
             brand: 'dyson',
             price: 39990,
-            image: '../images/dyson_super.jpeg',
+            image: 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary-locale/en_US/561776-01.png',
             category: 'haircare'
         },
         {
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'MacBook Pro 16" M2',
             brand: 'apple',
             price: 219990,
-            image: '../images/macpro16.jpg',
+            image: 'https://as-images.apple.com/is/refurb-mbp16-m2-spacegray-202303?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1680103637521',
             category: 'laptops'
         },
         {
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Redmi Note 12 Pro',
             brand: 'xiaomi',
             price: 29990,
-            image: '../images/redmi12pro.jpg',
+            image: 'https://www.tradeinn.com/f/13989/139899811/xiaomi-redmi-note-12-pro-8gb-256gb-6.67-dual-sim.webp',
             category: 'phones'
         },
         {
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
             brand: 'dyson',
             price: 49990,
             oldPrice: 54990,
-            image: '../images/dyson_air.webp',
+            image: 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/599017-01.png',
             category: 'haircare',
             isNew: true
         }
