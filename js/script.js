@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'iPhone 14 Pro',
             brand: 'Apple',
             price: '99 990 ₽',
-            image: '../images/14pro.jpg',
+            image: 'https://m.media-amazon.com/images/I/51CJE8vrvIL.jpg',
             category: 'phones'
         },
         {
