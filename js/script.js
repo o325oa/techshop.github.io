@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Galaxy S23 Ultra',
             brand: 'Samsung',
             price: '89 990 ₽',
-            image: '../images/s23ult.jpg',
+            image: 'https://m.media-amazon.com/images/I/71Sa3dqTqzL.jpg',
             category: 'phones'
         },
         {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'MacBook Air M2',
             brand: 'Apple',
             price: '119 990 ₽',
-            image: '../images/airm2.webp',
+            image: 'https://i5.walmartimages.com/seo/2022-Apple-MacBook-Air-with-M2-chip-13-6-inch-8GB-RAM-256GB-SSD-Starlight_198166aa-141d-40ee-ada6-0def7def1ff8.51c464292221fe05aef0776831faf085.jpeg',
             category: 'laptops'
         },
         {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'AirPods Pro 2',
             brand: 'Apple',
             price: '24 990 ₽',
-            image: '../images/airpods2pro.jpg',
+            image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-2-202409-gallery-1?wid=2824&hei=2400&fmt=jpeg&qlt=90&.v=V3lwSGNUa3E5M1VnNVZBT1RDR3Y2NS9rS3dwK1hySWg2QW9tQ1lqaSsxQXFlellpcE56OWNsOHBzVkJLWjdrYWJGcXNRQnFCV0w3WVRjTExvdm1ic1EvTVdVZ0JiQWtXQjFVOE5MY25KUnVIaWV5SG1KWWRSb1RMSkNqUDJYZHY',
             category: 'headphones'
         },
         {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Dyson Supersonic',
             brand: 'Dyson',
             price: '39 990 ₽',
-            image: '../images/dyson_super.jpeg',
+            image: 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary-locale/en_US/412522-01.png',
             category: 'haircare'
         },
         {
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Watch Series 8',
             brand: 'Apple',
             price: '34 990 ₽',
-            image: '../images/watch8.avif',
+            image: 'https://m.media-amazon.com/images/I/71ulah9iIwL._AC_UF894,1000_QL80_.jpg',
             category: 'watches'
         }
     ];
