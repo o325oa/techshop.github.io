@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров | TechShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">TechShop</div>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Главная</a>
+                    <a href="catalog.html" class="nav__link active">Каталог</a>
+                    <a href="about.html" class="nav__link">О нас</a>
+                    <a href="#" class="nav__link">Контакты</a>
+                </nav>
+                <div class="header__right">
+                    <a href="#" class="cart"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+                    <div class="burger" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="catalog">
+        <div class="container">
+            <h1 class="catalog__title">Каталог товаров</h1>
+            
+            <div class="catalog__filters">
+                <div class="filter">
+                    <label for="category" class="filter__label">Категория:</label>
+                    <select id="category" class="filter__select">
+                        <option value="all">Все категории</option>
+                        <option value="phones">Смартфоны</option>
+                        <option value="laptops">Ноутбуки</option>
+                        <option value="watches">Часы</option>
+                        <option value="headphones">Наушники</option>
+                        <option value="haircare">Фены</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <label for="brand" class="filter__label">Бренд:</label>
+                    <select id="brand" class="filter__select">
+                        <option value="all">Все бренды</option>
+                        <option value="apple">Apple</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="xiaomi">Xiaomi</option>
+                        <option value="dyson">Dyson</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <label for="price" class="filter__label">Цена:</label>
+                    <select id="price" class="filter__select">
+                        <option value="all">Любая</option>
+                        <option value="0-20000">До 20 000 ₽</option>
+                        <option value="20000-50000">20 000 - 50 000 ₽</option>
+                        <option value="50000-100000">50 000 - 100 000 ₽</option>
+                        <option value="100000">От 100 000 ₽</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="catalog__grid" id="catalogGrid">
+                <!-- Товары будут добавлены через JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h3 class="footer__title">TechShop</h3>
+                    <p class="footer__text">Лучшая электроника по выгодным ценам</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <p class="footer__text">info@techshop.ru</p>
+                    <p class="footer__text">+7 (123) 456-78-90</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Соцсети</h3>
+                    <div class="social">
+                        <a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">© 2023 TechShop. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>

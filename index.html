@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Магазин электронной техники</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">TechShop</div>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Главная</a>
+                    <a href="catalog.html" class="nav__link">Каталог</a>
+                    <a href="about.html" class="nav__link">О нас</a>
+                    <a href="#" class="nav__link">Контакты</a>
+                </nav>
+                <div class="header__right">
+                    <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="burger" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Лучшая электроника по выгодным ценам</h1>
+            <p class="hero__subtitle">Apple, Samsung, Xiaomi, Dyson и другие бренды</p>
+            <a href="catalog.html" class="btn">В каталог</a>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Категории товаров</h2>
+            <div class="categories__grid">
+                <div class="category-card" data-category="phones">
+                    <img src="images/smart.webp" alt="Смартфоны" class="category-card__img">
+                    <h3 class="category-card__title">Смартфоны</h3>
+                </div>
+                <div class="category-card" data-category="laptops">
+                    <img src="images/nout.jpg" alt="Ноутбуки" class="category-card__img">
+                    <h3 class="category-card__title">Ноутбуки</h3>
+                </div>
+                <div class="category-card" data-category="watches">
+                    <img src="images/watch.jpg" alt="Часы" class="category-card__img">
+                    <h3 class="category-card__title">Умные часы</h3>
+                </div>
+                <div class="category-card" data-category="headphones">
+                    <img src="images/pods.jpg" alt="Наушники" class="category-card__img">
+                    <h3 class="category-card__title">Наушники</h3>
+                </div>
+                <div class="category-card" data-category="haircare">
+                    <img src="images/dyson_prev.jpg" alt="Dyson" class="category-card__img">
+                    <h3 class="category-card__title">Фены Dyson</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+            <div class="featured__slider" id="featuredSlider">
+                <!-- Товары будут добавлены через JS -->
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            <div class="advantages__grid">
+                <div class="advantage-card">
+                    <i class="fas fa-shield-alt advantage-card__icon"></i>
+                    <h3 class="advantage-card__title">Гарантия качества</h3>
+                    <p class="advantage-card__text">Все товары сертифицированы и имеют официальную гарантию</p>
+                </div>
+                <div class="advantage-card">
+                    <i class="fas fa-truck advantage-card__icon"></i>
+                    <h3 class="advantage-card__title">Быстрая доставка</h3>
+                    <p class="advantage-card__text">Доставка по всей стране за 1-3 дня</p>
+                </div>
+                <div class="advantage-card">
+                    <i class="fas fa-headset advantage-card__icon"></i>
+                    <h3 class="advantage-card__title">Поддержка 24/7</h3>
+                    <p class="advantage-card__text">Наши специалисты всегда готовы помочь</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h3 class="footer__title">TechShop</h3>
+                    <p class="footer__text">Лучшая электроника по выгодным ценам</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <p class="footer__text">info@techshop.ru</p>
+                    <p class="footer__text">+7 (123) 456-78-90</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Соцсети</h3>
+                    <div class="social">
+                        <a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">© 2023 TechShop. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
